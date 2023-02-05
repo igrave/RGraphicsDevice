@@ -9,3 +9,5 @@ foo.swf
 foo.mxml
 isTransparent.html
 
+^.*\.Rproj$
+^\.Rproj\.user$
