@@ -10,16 +10,19 @@ Description: This package provides a framework that allows one to
   We can then annotate the output from such devices to make them interactive. 
   See the SVGAnnotation package for an example.
 Version: 0.5-0
-Imports: RAutoGenRunTime
-Depends: methods, RAutoGenRunTime
+Imports: RAutoGenRunTime, methods
+Depends: RAutoGenRunTime
+Suggests: lattice, maps
 Author: Duncan Temple Lang
 Maintainer: Duncan Temple Lang <duncan@r-project.org>
-License: GPL2
+License: GPL-2
 Collate: classes.R  rgb.R 
          lend.R ljoin.R GContext.R 
          devDescMethods.R RDevDesc.R
          gd.R zClasses.R
          GEDevDesc.R
 Extra:         withType.R
+LinkingTo: RAutoGenRunTime
+Remotes: omegahat/RAutoGenRunTime
 
 
