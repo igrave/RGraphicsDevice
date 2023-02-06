@@ -1,6 +1,7 @@
 useDynLib(RGraphicsDevice)
 
 import(RAutoGenRunTime)
+import(methods)
 
 export(graphicsDevice)
 exportMethods(graphicsDevice)

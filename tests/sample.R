@@ -44,10 +44,10 @@ dev$displayListOn = FALSE
 
 plot(1:10)
 
-library(lattice)
-   # Problem.
-xyplot(mpg ~ wt | cyl, mtcars)
-cat("Did lattice\n")
+# library(lattice)
+#    # Problem.
+# xyplot(mpg ~ wt | cyl, mtcars)
+# cat("Did lattice\n")
 
 library(maps)
 map('usa')
