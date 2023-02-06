@@ -8,6 +8,6 @@ devDesc.sub
 foo.swf
 foo.mxml
 isTransparent.html
-
+^.github
 ^.*\.Rproj$
 ^\.Rproj\.user$

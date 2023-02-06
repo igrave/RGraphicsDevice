@@ -9,9 +9,8 @@ Description: This package provides a framework that allows one to
   JavaScript code that renders on a JavaScript canvas (see https://developer.mozilla.org/en/Canvas_tutorial).
   We can then annotate the output from such devices to make them interactive. 
   See the SVGAnnotation package for an example.
-Version: 0.5-0
+Version: 0.5-1
 Imports: RAutoGenRunTime, methods
-Depends: RAutoGenRunTime
 Suggests: lattice, maps
 Author: Duncan Temple Lang
 Maintainer: Duncan Temple Lang <duncan@r-project.org>
